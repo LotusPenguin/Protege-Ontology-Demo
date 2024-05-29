@@ -114,6 +114,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#LokalizacjaLądowa">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#MiejscePomiaru"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#LokalizacjaMorska"/>
     </owl:Class>
     
 
@@ -166,6 +167,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#SprzętElektroniczny">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#SprzetPomiarowy"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#SprzętMechaniczny"/>
     </owl:Class>
     
 

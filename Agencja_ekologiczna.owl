@@ -187,6 +187,122 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Duda_Nowak -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Duda_Nowak"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Tusk_Kowalski -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Tusk_Kowalski"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Czy_Oslofjord_może_być_tropikalny? -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Czy_Oslofjord_może_być_tropikalny?"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Jak_solić_Bałtyk? -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Jak_solić_Bałtyk?"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_składu_chemiczny -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_składu_chemiczny"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_temperatury -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_temperatury"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#misja_Tajemnicze_Glony_Bałtyku -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#misja_Tajemnicze_Glony_Bałtyku"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#operacja_Skarby_Oslofjordu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#operacja_Skarby_Oslofjordu"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#plaża_Smażone_Meduzy_w_Gdańsku -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#plaża_Smażone_Meduzy_w_Gdańsku"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_warunków_do_życia_Arktyka_czy_Hawaje? -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_warunków_do_życia_Arktyka_czy_Hawaje?">
+        <jestWykonywanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Tusk_Kowalski"/>
+        <jestOpisanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Jak_solić_Bałtyk?"/>
+        <przeprowadza rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_składu_chemiczny"/>
+        <odbywaSięW rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#plaża_Smażone_Meduzy_w_Gdańsku"/>
+        <wykorzystuje rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#spektrofotometr_długi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_wpływu_globalnego_nieocieplenia? -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_wpływu_globalnego_nieocieplenia?">
+        <jestWykonywanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Duda_Nowak"/>
+        <jestOpisanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Czy_Oslofjord_może_być_tropikalny?"/>
+        <przeprowadza rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_temperatury"/>
+        <wykorzystuje rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#sonda_Nie-tonie"/>
+        <odbywaSięW rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#zatoka_Fjording_Fantastic_w_Oslofjordzie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#sonda_Nie-tonie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#sonda_Nie-tonie"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#spektrofotometr_długi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#spektrofotometr_długi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#zatoka_Fjording_Fantastic_w_Oslofjordzie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#zatoka_Fjording_Fantastic_w_Oslofjordzie"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#zieloni_Terroryści -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#zieloni_Terroryści">
+        <organizuje rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#misja_Tajemnicze_Glony_Bałtyku"/>
+        <organizuje rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#operacja_Skarby_Oslofjordu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // General axioms
     //
     ///////////////////////////////////////////////////////////////////////////////////////

@@ -16,6 +16,94 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#odbywaSieWMiejscu -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#odbywaSieWMiejscu"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#przeprowadzaPomiar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#przeprowadzaPomiar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#zawieraSprzet -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#zawieraSprzet"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#AgencjaEkologiczna -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#AgencjaEkologiczna"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#MiejscePomiaru -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#MiejscePomiaru"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#MorskaWyprawa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#MorskaWyprawa"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Naukowiec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Naukowiec"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Pomiar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Pomiar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#SprzetPomiarowy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#SprzetPomiarowy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TypPomiaru -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TypPomiaru"/>
 </rdf:RDF>
 
 

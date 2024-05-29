@@ -57,6 +57,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#obejmuje -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#obejmuje">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#MorskaWyprawa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Pomiar"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#odbywaSięW -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#odbywaSięW">
@@ -166,6 +175,16 @@
     <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#SprzętElektroniczny -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#SprzętElektroniczny">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#SprzetPomiarowy"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#SprzętMechaniczny"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#SprzetPomiarowy"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#SprzętMechaniczny"/>
     </owl:Class>
@@ -175,6 +194,16 @@
     <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#SprzętMechaniczny -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#SprzętMechaniczny">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#SprzetPomiarowy"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#SprzętElektroniczny"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#SprzetPomiarowy"/>
     </owl:Class>
     
@@ -235,13 +264,17 @@
 
     <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#misja_Tajemnicze_Glony_Bałtyku -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#misja_Tajemnicze_Glony_Bałtyku"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#misja_Tajemnicze_Glony_Bałtyku">
+        <obejmuje rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_wpływu_globalnego_nieocieplenia?"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#operacja_Skarby_Oslofjordu -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#operacja_Skarby_Oslofjordu"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#operacja_Skarby_Oslofjordu">
+        <obejmuje rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_warunków_do_życia_Arktyka_czy_Hawaje?"/>
+    </owl:NamedIndividual>
     
 
 
@@ -315,6 +348,20 @@
      -->
 
     <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Duda_Nowak"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Tusk_Kowalski"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_składu_chemiczny"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_temperatury"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#AgencjaEkologiczna"/>
@@ -326,6 +373,34 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#SprzetPomiarowy"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TypPomiaru"/>
         </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#plaża_Smażone_Meduzy_w_Gdańsku"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#zatoka_Fjording_Fantastic_w_Oslofjordzie"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Czy_Oslofjord_może_być_tropikalny?"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Jak_solić_Bałtyk?"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_warunków_do_życia_Arktyka_czy_Hawaje?"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_wpływu_globalnego_nieocieplenia?"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#misja_Tajemnicze_Glony_Bałtyku"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#operacja_Skarby_Oslofjordu"/>
+        </owl:distinctMembers>
     </rdf:Description>
 </rdf:RDF>
 

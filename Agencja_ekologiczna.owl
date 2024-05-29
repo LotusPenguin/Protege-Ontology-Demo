@@ -256,7 +256,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_warunków_do_życia_Arktyka_czy_Hawaje?">
         <jestWykonywanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Tusk_Kowalski"/>
         <jestOpisanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Jak_solić_Bałtyk?"/>
-        <przeprowadza rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_składu_chemiczny"/>
+        <jestRodzaju rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_temperatury"/>
         <odbywaSięW rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#plaża_Smażone_Meduzy_w_Gdańsku"/>
         <wykorzystuje rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#spektrofotometr_długi"/>
     </owl:NamedIndividual>
@@ -268,7 +268,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_wpływu_globalnego_nieocieplenia?">
         <jestWykonywanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Duda_Nowak"/>
         <jestOpisanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Czy_Oslofjord_może_być_tropikalny?"/>
-        <przeprowadza rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_temperatury"/>
+        <jestRodzaju rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_składu_chemiczny"/>
         <wykorzystuje rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#sonda_Nie-tonie"/>
         <odbywaSięW rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#zatoka_Fjording_Fantastic_w_Oslofjordzie"/>
     </owl:NamedIndividual>
@@ -277,13 +277,17 @@
 
     <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#sonda_Nie-tonie -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#sonda_Nie-tonie"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#sonda_Nie-tonie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#SprzętElektroniczny"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#spektrofotometr_długi -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#spektrofotometr_długi"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#spektrofotometr_długi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#SprzętMechaniczny"/>
+    </owl:NamedIndividual>
     
 
 

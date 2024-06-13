@@ -35,6 +35,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#charakteryzuje">
         <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Pomiar"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TypPomiaru"/>
         <owl:equivalentProperty>
             <rdf:Description>
                 <owl:inverseOf rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#jestRodzaju"/>
@@ -60,6 +62,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#jestOrganizowanePrzez">
         <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#AgencjaEkologiczna"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#MorskaWyprawa"/>
         <owl:equivalentProperty>
             <rdf:Description>
                 <owl:inverseOf rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#organizuje"/>
@@ -85,6 +89,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#jestWykonywanyNa">
         <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#MorskaWyprawa"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Pomiar"/>
         <owl:equivalentProperty>
             <rdf:Description>
                 <owl:inverseOf rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#obejmuje"/>
@@ -110,6 +116,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#jestWykorzystywanyDo">
         <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Pomiar"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#SprzetPomiarowy"/>
         <owl:equivalentProperty>
             <rdf:Description>
                 <owl:inverseOf rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#wykorzystuje"/>
@@ -119,11 +127,13 @@
     
 
 
-    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#miałoPrzeprowadzane -->
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#miałoPrzeprowadzany -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#miałoPrzeprowadzane">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#miałoPrzeprowadzany">
         <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#MiejscePomiaru"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Pomiar"/>
         <owl:equivalentProperty>
             <rdf:Description>
                 <owl:inverseOf rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#odbywaSięW"/>
@@ -160,6 +170,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#opisuje">
         <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Pomiar"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport"/>
         <owl:equivalentProperty>
             <rdf:Description>
                 <owl:inverseOf rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#jestOpisanyPrzez"/>
@@ -185,6 +197,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#wykonuje">
         <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Naukowiec"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Pomiar"/>
         <owl:equivalentProperty>
             <rdf:Description>
                 <owl:inverseOf rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#jestWykonywanyPrzez"/>
@@ -274,7 +288,15 @@
 
     <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#opisuje"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Pomiar"/>
+                <owl:maxQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">3</owl:maxQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
@@ -356,7 +378,14 @@
 
     <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Czy_Oslofjord_może_być_tropikalny -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Czy_Oslofjord_może_być_tropikalny"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Czy_Oslofjord_może_być_tropikalny">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#opisuje"/>
+                <owl:cardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
     
 
 
@@ -535,15 +564,15 @@
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_składu_chemiczny"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_temperatury"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Duda_Nowak"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Tusk_Kowalski"/>
         </owl:distinctMembers>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Duda_Nowak"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Tusk_Kowalski"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_składu_chemiczny"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_temperatury"/>
         </owl:distinctMembers>
     </rdf:Description>
     <rdf:Description>

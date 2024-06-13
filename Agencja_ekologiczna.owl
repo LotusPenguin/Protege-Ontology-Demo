@@ -321,11 +321,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#ZapracowanyNaukowiec">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty>
-                    <rdf:Description>
-                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#jestWykonywanyPrzez"/>
-                    </rdf:Description>
-                </owl:onProperty>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#wykonuje"/>
                 <owl:onClass rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Pomiar"/>
                 <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">3</owl:minQualifiedCardinality>
             </owl:Restriction>
@@ -385,7 +381,9 @@
     <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#misja_Tajemnicze_Glony_Bałtyku -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#misja_Tajemnicze_Glony_Bałtyku">
+        <obejmuje rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_temperatury"/>
         <obejmuje rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_wpływu_globalnego_nieocieplenia"/>
+        <obejmuje rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_zasolenia_morskiego"/>
     </owl:NamedIndividual>
     
 
@@ -401,6 +399,16 @@
     <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#plaża_Smażone_Meduzy_w_Gdańsku -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#plaża_Smażone_Meduzy_w_Gdańsku"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_temperatury -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_temperatury">
+        <jestWykonywanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Tusk_Kowalski"/>
+        <jestOpisanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Jak_solić_Bałtyk?"/>
+        <jestRodzaju rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_temperatury"/>
+    </owl:NamedIndividual>
     
 
 
@@ -424,6 +432,16 @@
         <jestRodzaju rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_składu_chemiczny"/>
         <wykorzystuje rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#sonda_Nie-tonie"/>
         <odbywaSięW rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#zatoka_Fjording_Fantastic_w_Oslofjordzie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_zasolenia_morskiego -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_zasolenia_morskiego">
+        <jestWykonywanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Tusk_Kowalski"/>
+        <jestOpisanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Jak_solić_Bałtyk?"/>
+        <jestRodzaju rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_składu_chemiczny"/>
     </owl:NamedIndividual>
     
 
@@ -470,15 +488,8 @@
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Duda_Nowak"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Tusk_Kowalski"/>
-        </owl:distinctMembers>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="&owl;AllDifferent"/>
-        <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_składu_chemiczny"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_temperatury"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Czy_Oslofjord_może_być_tropikalny"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Jak_solić_Bałtyk?"/>
         </owl:distinctMembers>
     </rdf:Description>
     <rdf:Description>
@@ -497,6 +508,13 @@
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#misja_Tajemnicze_Glony_Bałtyku"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#operacja_Skarby_Oslofjordu"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_warunków_do_życia_Arktyka_czy_Hawaje?"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_wpływu_globalnego_nieocieplenia"/>
         </owl:distinctMembers>
@@ -511,15 +529,24 @@
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Czy_Oslofjord_może_być_tropikalny"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Jak_solić_Bałtyk?"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_składu_chemiczny"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_temperatury"/>
         </owl:distinctMembers>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#misja_Tajemnicze_Glony_Bałtyku"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#operacja_Skarby_Oslofjordu"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Duda_Nowak"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Tusk_Kowalski"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_temperatury"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_warunków_do_życia_Arktyka_czy_Hawaje?"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_wpływu_globalnego_nieocieplenia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_zasolenia_morskiego"/>
         </owl:distinctMembers>
     </rdf:Description>
 </rdf:RDF>

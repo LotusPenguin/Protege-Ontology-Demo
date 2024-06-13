@@ -391,7 +391,7 @@
     <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#operacja_Skarby_Oslofjordu -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#operacja_Skarby_Oslofjordu">
-        <obejmuje rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_warunków_do_życia_Arktyka_czy_Hawaje?"/>
+        <obejmuje rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_warunków_do_życia_Arktyka_czy_Hawaje"/>
     </owl:NamedIndividual>
     
 
@@ -409,19 +409,19 @@
         <jestOpisanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Jak_solić_Bałtyk?"/>
         <jestRodzaju rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_temperatury"/>
         <odbywaSięW rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#plaża_Smażone_Meduzy_w_Gdańsku"/>
-        <wykonuje rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#sonda_Nie-tonie"/>
+        <wykorzystuje rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#sonda_Nie-tonie"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_warunków_do_życia_Arktyka_czy_Hawaje? -->
+    <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_warunków_do_życia_Arktyka_czy_Hawaje -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_warunków_do_życia_Arktyka_czy_Hawaje?">
-        <jestWykonywanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Tusk_Kowalski"/>
-        <jestOpisanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Jak_solić_Bałtyk?"/>
-        <jestRodzaju rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_temperatury"/>
-        <odbywaSięW rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#plaża_Smażone_Meduzy_w_Gdańsku"/>
-        <wykorzystuje rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#spektrofotometr_długi"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_warunków_do_życia_Arktyka_czy_Hawaje">
+        <jestWykonywanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Duda_Nowak"/>
+        <jestOpisanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Czy_Oslofjord_może_być_tropikalny"/>
+        <jestRodzaju rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_składu_chemiczny"/>
+        <wykorzystuje rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#sonda_Nie-tonie"/>
+        <odbywaSięW rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#zatoka_Fjording_Fantastic_w_Oslofjordzie"/>
     </owl:NamedIndividual>
     
 
@@ -429,11 +429,11 @@
     <!-- http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_wpływu_globalnego_nieocieplenia -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_wpływu_globalnego_nieocieplenia">
-        <jestWykonywanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Duda_Nowak"/>
-        <jestOpisanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Czy_Oslofjord_może_być_tropikalny"/>
-        <jestRodzaju rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_składu_chemiczny"/>
-        <wykorzystuje rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#sonda_Nie-tonie"/>
-        <odbywaSięW rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#zatoka_Fjording_Fantastic_w_Oslofjordzie"/>
+        <jestWykonywanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Tusk_Kowalski"/>
+        <jestOpisanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Jak_solić_Bałtyk?"/>
+        <jestRodzaju rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_temperatury"/>
+        <odbywaSięW rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#plaża_Smażone_Meduzy_w_Gdańsku"/>
+        <wykorzystuje rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#spektrofotometr_długi"/>
     </owl:NamedIndividual>
     
 
@@ -519,15 +519,17 @@
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_warunków_do_życia_Arktyka_czy_Hawaje?"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_wpływu_globalnego_nieocieplenia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#plaża_Smażone_Meduzy_w_Gdańsku"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#zatoka_Fjording_Fantastic_w_Oslofjordzie"/>
         </owl:distinctMembers>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#plaża_Smażone_Meduzy_w_Gdańsku"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#zatoka_Fjording_Fantastic_w_Oslofjordzie"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_temperatury"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_warunków_do_życia_Arktyka_czy_Hawaje"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_wpływu_globalnego_nieocieplenia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_zasolenia_morskiego"/>
         </owl:distinctMembers>
     </rdf:Description>
     <rdf:Description>
@@ -547,10 +549,8 @@
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_temperatury"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_warunków_do_życia_Arktyka_czy_Hawaje?"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_warunków_do_życia_Arktyka_czy_Hawaje"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_wpływu_globalnego_nieocieplenia"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#pomiar_zasolenia_morskiego"/>
         </owl:distinctMembers>
     </rdf:Description>
 </rdf:RDF>

@@ -408,6 +408,8 @@
         <jestWykonywanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Tusk_Kowalski"/>
         <jestOpisanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Jak_solić_Bałtyk?"/>
         <jestRodzaju rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_temperatury"/>
+        <odbywaSięW rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#plaża_Smażone_Meduzy_w_Gdańsku"/>
+        <wykonuje rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#sonda_Nie-tonie"/>
     </owl:NamedIndividual>
     
 
@@ -442,6 +444,8 @@
         <jestWykonywanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Dr_Tusk_Kowalski"/>
         <jestOpisanyPrzez rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#Raport_Jak_solić_Bałtyk?"/>
         <jestRodzaju rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#TYP_pomiar_składu_chemiczny"/>
+        <odbywaSięW rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#plaża_Smażone_Meduzy_w_Gdańsku"/>
+        <wykorzystuje rdf:resource="http://www.semanticweb.org/pingwin/ontologies/2024/4/untitled-ontology-7#sonda_Nie-tonie"/>
     </owl:NamedIndividual>
     
 
